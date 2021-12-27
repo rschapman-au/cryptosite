@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { Button, Menu, Avatar, Typography } from 'antd';
+import { Menu, Avatar, Typography } from 'antd'; //Button
 import { Link } from "react-router-dom";
-import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, MenuOutlined, FundOutlined } from "@ant-design/icons";
+import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined } from "@ant-design/icons";//MenuOutlined
 
 import icon from "../images/cryptositelogo.png"
 
