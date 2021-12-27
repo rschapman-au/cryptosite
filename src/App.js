@@ -13,6 +13,7 @@ const App = () => {
       <div className="navbar">
         <Navbar/>
       </div>
+      
       <div className="main">
         <Layout>
           <div className="routes">
@@ -23,7 +24,6 @@ const App = () => {
               <Route path="/crypto/:coidId" element = { <CryptoDetails/> }/>  
               <Route path="/news" element = { <News/> }/>  
               <Route path="/*" element = { <NotFound/> }/>    
-
             </Routes>
           </div>
         </Layout>
